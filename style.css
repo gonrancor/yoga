@@ -1,0 +1,81 @@
+nav {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(252, 85, 85));
+}
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 25px;
+    padding: 0 25px;
+}
+.nav-letra {
+    font-size: 1.5em;
+}
+.parallax {
+    background-image:url(img/1.jpg);
+    opacity: 0.7;
+    min-height: 50vh; 
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo {
+    color: white;
+    font-size: 4em;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px black;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.autor {
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.subtitulo {
+    font-size: 2em;
+    text-align: center;
+    padding: 15px 0;
+    margin: 0 15px;
+}
+.txt {
+    padding: 15px 15px;
+    margin: 0 15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.icon {
+    font-size: 2em;
+    color:rgb(252, 85, 85);
+    position: relative;
+    margin: 15px 0;
+}
+.icon-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pie {
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(252, 85, 85));
+    text-align: center;
+    padding: 10px 0;
+}
+.red-social {
+    font-size: 2em;
+    margin: 0 15px;
+}
+.pie-txt {
+    font-size: 1.5em;
+}
+@media screen and (min-width: 768px) {
+    .parallax {
+        min-height: 70vh; 
+    }
+}
