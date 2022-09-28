@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(252, 85, 85));
 }
@@ -21,30 +26,32 @@ nav {
 .parallax {
     background-image:url(img/1.jpg);
     opacity: 0.7;
-    min-height: 50vh; 
+    min-height: 55vh; 
     background-attachment: fixed;
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+    -ms-display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
 .titulo {
     color: white;
     font-size: 4em;
     text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px black;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+    margin: 15px auto;
 }
 .autor {
     color: white;
     font-size: 2em;
     text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 0), 0 0 5px black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 15px auto;
+
 }
 .subtitulo {
     font-size: 2em;
@@ -74,12 +81,21 @@ nav {
     text-align: center;
     padding: 10px 0;
 }
+footer a {
+    text-decoration: none;
+}
+footer a .fa-brands {
+    text-decoration: none;
+}
 .red-social {
     font-size: 2em;
     margin: 0 15px;
 }
 .pie-txt {
-    font-size: 1.5em;
+    font-size: 1.6em;
+}
+.slider {
+    width: auto;
 }
 @media screen and (min-width: 768px) {
     .parallax {
