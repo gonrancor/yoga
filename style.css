@@ -95,15 +95,6 @@ footer a .fa-brands {
     font-size: 1.6em;
 }
 
-@media screen and (min-width: 768px) {
-    .parallax {
-        min-height: 70vh;
-    }
-    .slide {
-        margin: 0 25vw;
-    }
-}
-
 /* CONTACTO */
 .img-contacto {
     height: 100vh;
@@ -134,25 +125,48 @@ footer a .fa-brands {
 .titular-txt {
     text-align: center;
 }
+.por-que-conteiner {
+display: grid;
+row-gap: 5px;
+column-gap: 5px;
+}
 .conteiner-1 {
     background: rgb(255, 255, 187);
     border: solid 1px black;
-    margin: 5px 0;
+    margin: 0 0;
     padding: 15px;
 }
 .conteiner-2 {
     background: rgb(253, 189, 164);
     border: solid 1px black;
-    margin: 5px 0;
+    margin: 0 0;
     padding: 15px;
 }
 .conteiner-3 {
     background: rgb(255, 255, 187);
     border: solid 1px black;
-    margin: 5px 0;
+    margin: 0 0;
     padding: 15px;
 }
 .enumerado {
     text-align: left;
     padding: 0 10px;
+}
+.space {
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .parallax {
+        min-height: 70vh;
+    }
+    .slide {
+        margin: 0 25vw;
+    }
+    .por-que-conteiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        
+    }
 }
