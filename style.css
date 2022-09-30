@@ -94,12 +94,13 @@ footer a .fa-brands {
 .pie-txt {
     font-size: 1.6em;
 }
-.slider {
-    width: auto;
-}
+
 @media screen and (min-width: 768px) {
     .parallax {
-        min-height: 70vh; 
+        min-height: 70vh;
+    }
+    .slide {
+        margin: 0 25vw;
     }
 }
 
@@ -110,4 +111,48 @@ footer a .fa-brands {
     
     opacity: 0.5;
     margin: 0;
+}
+
+/*CLASES / ACTIVIDADES*/
+.slider-titulo {
+    color: rgb(3, 3, 3);
+    font-size: 2em;
+}
+.slider-img {
+    opacity: 0.6;
+}
+.titulo-clases {
+    text-align: center;
+    margin: 15px 0;
+}
+
+/*POR QUE YOGA?*/
+.titular {
+    text-align: center;
+    margin: 15px 0;
+}
+.titular-txt {
+    text-align: center;
+}
+.conteiner-1 {
+    background: rgb(255, 255, 187);
+    border: solid 1px black;
+    margin: 5px 0;
+    padding: 15px;
+}
+.conteiner-2 {
+    background: rgb(253, 189, 164);
+    border: solid 1px black;
+    margin: 5px 0;
+    padding: 15px;
+}
+.conteiner-3 {
+    background: rgb(255, 255, 187);
+    border: solid 1px black;
+    margin: 5px 0;
+    padding: 15px;
+}
+.enumerado {
+    text-align: left;
+    padding: 0 10px;
 }

@@ -25,10 +25,10 @@
             <div class="collapse navbar-collapse nav-links" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active nav-letra" aria-current="page" href="#">¿Por qué Yoga?</a>
+                    <a class="nav-link active nav-letra" aria-current="page" href="por-que-yoga.html">¿Por qué Yoga?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav-letra" href="clases.html">Clases</a>
+                    <a class="nav-link nav-letra" href="clases.html">Clases / Actividades</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-letra" href="contacto.html">Contacto</a>
@@ -39,31 +39,49 @@
         </nav>
     </header>
     <main>
-        <div id="carouselExampleIndicators" class="carousel slide slider" data-bs-ride="true">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/6.jpg" class="d-block w-100 slider-img" alt="...">
+                <div class="carousel-caption d-md-block ">
+                    <h5 class="slider-titulo">Meditaciones</h5>
+                    <p class="slider-txt">Meditaciones guiadas, sonoras.</p>
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/5.jpg" class="d-block w-100 slider-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="slider-titulo">Salidas a la naturaleza</h5>
+                        <p>Campamentos, excursiones y más para conectar la practica del Yoga con la naturaleza.</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/3.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/4.jpg" class="d-block w-100" alt="...">
+                    <img src="img/9.jpg" class="d-block w-100 slider-img" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5 class="slider-titulo">Sahumerios, Japa-Malas y más.</h5>
+                        <p>Lo necesario para acondicionar el rincon yogui del hogar.</p>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div>
+        <div>
+            <h1 class="titulo-clases">Clases</h1>
+        </div>
+        <div>
+            <h1 class="titulo-clases">Talleres</h1>
         </div>
     </main>
     <footer class="pie">
